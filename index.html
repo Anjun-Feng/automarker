@@ -6,8 +6,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<input type="file" id="csvInput" accept=".csv">
+<select id="studentSelector"></select>
 
-<h2>Assessment Rubric</h2>
+<h2 id="rubric-title">Assessment Rubric</h2>
 
 <div id="rubric-wrapper">
   <!-- Main Rubric Table -->
@@ -48,7 +50,7 @@
       </tr>
     </tbody>
   </table>
-
+  
   <table id="deduction-table">
     <thead>
       <tr><th>Deductions</th></tr>

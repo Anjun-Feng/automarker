@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+  }
+    /* Table border style */
+  table, th, td {
+    border: 3px solid black; /* make all borders solid black */
+  }
+  
+  /* Optional: improve visibility for the horizontal rule */
+  td hr {
+    margin: 4px 0;
+    border: none;
+    border-top: 1px solid #888; /* or use a grey or lighter color */
+  }
+  
+  #rubric-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+
+  #rubric-table, #deduction-table {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .desc {
+    text-align: left;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
+  #deduction-table {
+    width: 250px;
+  }
+  
